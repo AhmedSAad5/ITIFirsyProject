@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Big+Shoulders+Inline+Text:100,200,300,regular,500,600,700,800,900);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+.container {
+  overflow: hidden;
+  height: 350px;
+  width: 550px;
+  align-items: flex-end;
+}
+
+.container .heading {
+  color: aqua;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.container .slider {
+  display: flex;
+  width: 100%;
+  animation: MoveSlider 15s infinite linear;
+}
+
+.slider img {
+  width: 100%;
+}
+
+@keyframes MoveSlider {
+  0%{
+    transform: translateX(0);
+  }
+  10%{
+    transform: translateX(0);
+  }
+  20%{
+    transform: translateX(0);
+  }
+  30%{
+    transform: translateX(-100%);
+  }
+  40%{
+    transform: translateX(-100%);
+  }
+  50%{
+    transform: translateX(-200%);
+  }
+  60%{
+    transform: translateX(-200%);
+  }
+  70%{
+    transform: translateX(-300%);
+  }
+  80%{
+    transform: translateX(-300%);
+  }
+  90%{
+    transform: translateX(-400%);
+  }
+  100%{
+    transform: translateX(-400%);
+  }
+}

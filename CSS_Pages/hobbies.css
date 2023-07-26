@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.hobb {
+  position: relative;
+  margin: 10px;
+  width: 450px;
+  height: 300px;
+  border: 3px solid red;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.hobb .head {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f00;
+}
+
+.hobb:hover {
+  transform: scale(1.089);
+  opacity: 0.8;
+}
+
+.hobb img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;  /* should be resized to fit its container */
+  transition: opacity 0.5s;
+}
+
+.hobb img:hover{
+  opacity: 0.5;
+}
+
+.hobb span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.hobb:hover span {
+  opacity: 1;
+}

@@ -1,0 +1,9 @@
+.imge img{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  padding-top: 45px;
+  width: 50%;
+  height: 50%;
+}

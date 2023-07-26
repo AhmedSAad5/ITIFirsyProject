@@ -1,0 +1,14 @@
+@import url(https://fonts.googleapis.com/css?family=Smooch+Sans:100,200,300,regular,500,600,700,800,900);
+
+.thank {
+  box-shadow: 0 0 10px #C792DF;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DCABDF;
+}
+
+.thank h1 {
+  text-align: center;
+}
